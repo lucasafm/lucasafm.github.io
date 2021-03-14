@@ -1,0 +1,9 @@
+.navDiv {
+    background-color: brown;
+    height: 3rem;
+}
+
+.navUl{
+    margin: 0;
+    padding: 0;
+}
