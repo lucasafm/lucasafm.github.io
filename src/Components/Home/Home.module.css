@@ -1,0 +1,58 @@
+.homeDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.homeContainer{
+    /* background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('./Background.jpg'); */
+    background: url('./Background.jpg');
+    background-size: cover;
+    display: flex;
+    width: 220vh;
+    height: 95vh;
+}
+
+.fakeDark, .fakeLight{
+    height: 100%;
+    width: 100%;
+    transition: background-color 0.5s;
+}
+.fakeDark{
+    background-color: rgba(0,0,0,0.8);
+}
+.fakeLight{
+    background-color: transparent;
+}
+
+.homveTextDiv{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homePDark, .homePLight, .homeADark, .homeALight{
+    margin: 1vh;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    transition: text-shadow 0.5s;
+}
+
+.homeADark, .homePDark{
+    text-shadow: 3px 3px #ff6600;
+}
+.homeALight, .homePLight{
+    text-shadow: 3px 3px #ff6600;
+}
+
+.homeADark, .homeALight{
+    font-size: 60px;
+    font-weight: bold;
+}
+.homePDark, .homePLight{
+    font-size: 50px;
+}

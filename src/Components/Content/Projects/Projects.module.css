@@ -1,0 +1,15 @@
+.fakeDivDark, .fakeDivLight{
+    height: 4rem;
+    transition: background-color 0.5s;
+}
+.fakeDivDark{
+    background-color: black;
+}
+.fakeDivLight{
+    background-color: #ff9000;
+}
+
+.projectsP{
+    margin: 10px;
+    font-size: 30px;
+}

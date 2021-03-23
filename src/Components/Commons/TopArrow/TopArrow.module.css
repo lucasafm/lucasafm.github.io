@@ -1,0 +1,36 @@
+.topArrowDivDark, .topArrowDivLight{
+    z-index: 8;
+    height: 13vh;
+    width: 13vh;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 3vh;
+    right: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s;
+}
+.topArrowDivLight{
+    background-color: transparent;
+}
+.topArrowDivDark{
+    background-color: rgba(0, 0, 0, 0.95);
+}
+
+.topArrowArrowDark, .topArrowArrowLight{
+    font-size: 10vh;
+    transition: color 0.5s;
+}
+.topArrowArrowDark{
+    color: white;
+}
+.topArrowArrowLight{
+    color:#ff9000
+}
+.topArrowArrowDark:hover{
+    color: #ff9000;
+}
+.topArrowArrowLight:hover{
+    color: black;
+}

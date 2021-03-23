@@ -1,4 +1,11 @@
 .divFooter{
-    background-color: brown;
-    height: 3rem;
+    background-color: black;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerP{
+    color: rgba(255, 255, 255, 0.568);
 }

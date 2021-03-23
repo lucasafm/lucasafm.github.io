@@ -1,0 +1,119 @@
+.fakeDivDark, .fakeDivLight{
+    height: 4rem;
+    transition: background-color 0.5s;
+}
+.fakeDivDark{
+    background-color: black;
+}
+.fakeDivLight{
+    background-color: #ff9000;
+}
+
+.papaDivlight{
+    transition: background-color 0.5s;
+    background-color: white;
+}
+.papaDivDark{
+    background-color: rgb(102, 102, 102);
+    transition: background-color 0.5s;
+}
+
+.textDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutTitleLight, .aboutTitleDark {
+    font-size: 55px;
+    margin: 15px;
+    transition: color 0.5s;
+}
+.aboutTitleDark{
+    color: White;
+}
+.aboutTitleLight{
+    color: black;
+}
+
+.titleUndelineLight, .titleUndelineDark{
+    margin-bottom: 20px;
+    height: 5px;
+    width: 15vh;
+    transition: background-color 0.5s;
+}
+.titleUndelineLight{
+    background-color: #ff9000;
+}
+.titleUndelineDark{
+    background-color: white;
+}
+
+.aboutPDark, .aboutPLight{
+    margin: 0;
+    font-size: 30px;
+    transition: color 0.5s;
+}
+.aboutPDark{
+    color: white;
+}
+.aboutPLight{
+    color: black;
+}
+
+.subDivsContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.subDivFirst, .subDivSecondary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 5vh;
+}
+
+.eduTittleDark, .eduTittleLight{
+    font-size: 45px;
+    margin: 5vh 0 2vh 0;
+    transition: color 0.5s;
+}
+.eduTittleDark{
+    color: white;
+}
+.eduTittleLight{
+    color: black;
+}
+
+.eduSubTittleLight, .eduSubTittleDark{
+    font-size: 30px;
+    margin-bottom: 5px;
+    transition: color 0.5s;
+}
+.eduSubTittleDark{
+    color: white;
+}
+.eduSubTittleLight{
+    color: black;
+}
+
+.eduTextDark, .eduTextLight{
+    font-size: 25px;
+    margin-top: 0;
+    transition: color 0.5s;
+}
+
+.eduTextDark{
+    color: white;
+}
+.eduTextLight{
+    color: black;
+}
+
+.image{
+    height: 50vh;
+    border-radius: 8px;
+    margin-bottom: 5vh;
+}
