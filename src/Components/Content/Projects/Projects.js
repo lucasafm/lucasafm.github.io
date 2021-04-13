@@ -5,7 +5,7 @@ import styles from './Projects.module.css'
 const Projects = () => {
     const { language, mode } = useContext(MainContext)
     return (
-        <div id='projects'>
+        <div className={mode === 'Dark' ? styles.papaDivDark : styles.papaDivLight} id='projects'>
             <div className={mode === 'Dark' ? styles.fakeDivDark : styles.fakeDivLight}></div>
             <p className={styles.projectsP}>Projects</p>
             <p className={styles.projectsP}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed orci lectus. Nulla et urna nec felis mollis commodo. Aliquam pulvinar viverra nisl, sed ullamcorper nisi fringilla sit amet. Morbi et ligula id libero suscipit rutrum. Aenean tincidunt nulla pellentesque elit egestas suscipit. Sed nec elit lacinia, posuere urna ac, molestie dui. Pellentesque nec dui interdum, pretium urna eget, finibus lacus. Morbi gravida odio orci, eu condimentum dui vehicula a. Ut eleifend ac elit vel pharetra. In gravida eleifend velit, ac sodales sem eleifend sit amet. Nullam eget metus egestas, consectetur odio sit amet, interdum leo. Phasellus efficitur laoreet interdum.

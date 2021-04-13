@@ -9,7 +9,19 @@
     background-color: #ff9000;
 }
 
+.papaDivDark, .papaDivLight{
+
+    transition: background-color 0.5s, background-image 0.5s;
+}
+.papaDivDark{
+    background-color: #301b3f;
+    background-image: linear-gradient(150deg, #301b3f, #935e9e);
+}
+.papaDivLight{
+    background-color: white;
+}
+
 .projectsP{
-    margin: 10px;
+    margin: 0;
     font-size: 30px;
 }

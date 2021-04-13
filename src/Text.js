@@ -23,27 +23,27 @@ export const homeText = {
         PT: 'Ben-vindo a meu Portfolio'
     },
     A: {
-        EN: "I'm Lucas Agustin Fernandez Morales",
-        ES: "Yo Soy Lucas Agustin Fernandez Morales",
-        PT: "Eu Sou Lucas Agustin Fernandez Morales"
+        EN: "I'm Lucas Agustín Fernández Morales",
+        ES: "Yo Soy Lucas Agustín Fernández Morales",
+        PT: "Eu Sou Lucas Agustín Fernández Morales"
     }
 }
 
 export const aboutText = {
     title: {
-        EN: 'About me',
-        ES: 'Sobre mi',
-        PT: 'Sobre mim'
+        EN: 'Who Am I?',
+        ES: '¿Quién Soy?',
+        PT: 'Quem Sou Eu?'
     },
     summary1: {
         EN: "I'm a Full-Stack Developer from Buenos Aires, Argentina.",
         ES: 'Soy un Desarrollador Full-Stack de Buenos Aires, Argentina',
-        PT: 'Sou um Desenvolvedor Full-Stack de Buenos Aires, Argentina.'
+        PT: 'Eu sou um Desenvolvedor Full-Stack de Buenos Aires, Argentina.'
     },
     summary2: {
-        EN: "hahs",
-        ES: 'hahs',
-        PT: 'hahs'
+        EN: "I'm looking forward for my next project to keep learning.",
+        ES: 'Estoy ansioso por mi próximo proyecto para seguir aprendiendo.',
+        PT: 'Estou ansioso pelo meu próximo projeto para continuar aprendendo.'
     },
     education: {
         EN: 'Education',
@@ -52,7 +52,12 @@ export const aboutText = {
     },
     henry: {
         EN: 'SoyHenry is an online digital academy that teaches technological careers',
-        ES: 'SoyHenry es una academia digital online que enseñan carreras tecnológicas',
+        ES: 'SoyHenry es una academia digital online que enseña carreras tecnológicas',
         PT: 'SoyHenry é uma academia digital online que ensina carreiras tecnológicas'
-    }
+    },
+    skills: {
+        EN: 'Knowledge',
+        ES: 'Conocimiento',
+        PT: 'Conhecimento'
+    },
 }

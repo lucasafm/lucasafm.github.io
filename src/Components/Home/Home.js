@@ -9,7 +9,7 @@ const Home = () => {
         <div className={styles.homeDiv}>
             <div className={styles.homeContainer}>
                 <div className={mode === 'Dark' ? styles.fakeDark : styles.fakeLight}></div>
-                <div className={styles.homveTextDiv}>
+                <div className={styles.homeTextDiv}>
                     <p className={mode === 'Dark' ? styles.homeADark : styles.homeALight}>{homeText.A[language]}</p>
                     <p className={mode === 'Dark' ? styles.homePDark : styles.homePLight}>{homeText.P[language]}</p>
                 </div>

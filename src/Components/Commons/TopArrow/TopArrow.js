@@ -7,7 +7,7 @@ const TopArrow = () => {
     const { mode } = useContext(MainContext)
     return (
         <>
-        <div className={mode === 'Dark' ? styles.topArrowDivDark : styles.topArrowDivLight}>
+        <div className={styles.topArrowDiv}>
             <a href='#' ><FaChevronUp className={mode === 'Dark' ? styles.topArrowArrowDark : styles.topArrowArrowLight}/> </a>
         </div>
         </>
