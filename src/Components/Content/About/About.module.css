@@ -77,6 +77,11 @@
     margin: 0;
 }
 
+.knoledgeRowDiv{
+    display: flex;
+    flex-direction: row;
+}
+
 .eduTittleDark, .eduTittleLight{
     font-size: 45px;
     margin: 5vh 0 2vh 0;
@@ -126,8 +131,8 @@
     flex-direction: row;
 }
 
-.jsIcon, .htmlIcon, .cssIcon{
-    margin-right: 1.5vh;
+.jsIcon, .htmlIcon, .cssIcon, .reactIcon, .reduxIcon, .postgresqlIcon{
+    margin: 0 1.5vh;
     font-size: 30px;
 }
 .jsIcon{
@@ -138,4 +143,13 @@
 }
 .cssIcon{
     color: #2965f1;
+}
+.reactIcon{
+    color: #61DBFB;
+}
+.reduxIcon{
+    color: #764abc;
+}
+.postgresqlIcon{
+    color: #336791;
 }

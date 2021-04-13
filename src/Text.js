@@ -61,3 +61,11 @@ export const aboutText = {
         PT: 'Conhecimento'
     },
 }
+
+export const projectsText = {
+    p: {
+        EN: 'Projects in Process...',
+        ES: 'Proyectos en Proceso...',
+        PT: 'Projetos em Andamento...'
+    }
+}

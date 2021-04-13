@@ -10,18 +10,36 @@
 }
 
 .papaDivDark, .papaDivLight{
-
-    transition: background-color 0.5s, background-image 0.5s;
+    transition: background-color 0.5s;
 }
 .papaDivDark{
-    background-color: #301b3f;
-    background-image: linear-gradient(150deg, #301b3f, #935e9e);
+    background-color: black;
 }
 .papaDivLight{
     background-color: white;
 }
 
-.projectsP{
+.contentDiv{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectsPDark, .projectsPLight{
+    border:0.4rem;
+    border-style: dashed solid;
+    padding: 0.5rem;
     margin: 0;
     font-size: 30px;
+    transition: border 0.5s, color 0.5s;
+}
+.projectsPDark{
+    color: white;
+    border-color: white;
+}
+.projectsPLight{
+    color: black;
+    border-color: #ff9000;
 }

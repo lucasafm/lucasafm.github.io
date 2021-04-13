@@ -1,11 +1,23 @@
-.divFooter{
-    background-color: black;
+.divFooterDark, .divFooterLight{
     height: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 0.5s;
+}
+.divFooterDark{
+    background-color: black;
+}
+.divFooterLight{
+    background-color: #ff9000;
 }
 
-.footerP{
+.footerPDark, .footerPLight{
+    transition: color 0.5s;
+}
+.footerPDark{
     color: rgba(255, 255, 255, 0.568);
+}
+.footerPLight{
+    color: black;
 }
