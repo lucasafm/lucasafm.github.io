@@ -20,7 +20,7 @@ export const homeText = {
     P: {
         EN: 'Welcome to my Portfolio',
         ES: 'Bienvenido a mi Portfolio',
-        PT: 'Ben-vindo a meu Portfolio'
+        PT: 'Bem-vindo ao meu Portfolio'
     },
     A: {
         EN: "I'm Lucas Agustín Fernández Morales",
