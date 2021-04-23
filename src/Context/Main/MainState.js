@@ -5,7 +5,7 @@ import MainContext from './MainContext'
 const MainState = (props) => {
     const initialState = {
         language: 'EN',
-        mode: 'Dark'
+        mode: 'Light'
     }
 
     const [state, dispatch] = useReducer(MainReducer, initialState)

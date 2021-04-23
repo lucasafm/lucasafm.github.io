@@ -1,20 +1,20 @@
 .fakeDivDark, .fakeDivLight{
-    height: 4rem;
+    height: 3rem;
     transition: background-color 0.5s;
 }
 .fakeDivDark{
-    background-color: black;
+    background-color: #050608;
 }
 .fakeDivLight{
-    background-color: #ff9000;
+    background-color: #fafcfb;
 }
 
-.papaDivlight, .papaDivlight:hover{
+.papaDivLight, .papaDivLight:hover{
     transition: background-color 0.5s;
-    background-color: #f3f3f3;
+    background-color: #fafcfb;
 }
 .papaDivDark, .papaDivDark:hover{
-    background-color: black;
+    background-color: #050608;
     transition: background-color 0.5s;
 }
 
@@ -45,7 +45,7 @@
     transition: background-color 0.5s;
 }
 .titleUndelineLight{
-    background-color: #ff9000;
+    background-color: #273C2C;
 }
 .titleUndelineDark{
     background-color: white;
@@ -110,6 +110,7 @@
 .eduTextDark, .eduTextLight{
     font-size: 25px;
     margin-top: 0;
+    margin-bottom: 5vh;
     transition: color 0.5s;
 }
 
@@ -123,7 +124,6 @@
 .image{
     height: 50vh;
     border-radius: 8px;
-    margin-bottom: 5vh;
 }
 
 .iconDivLight, .iconDivDark{

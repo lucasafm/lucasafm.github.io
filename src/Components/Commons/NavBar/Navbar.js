@@ -15,7 +15,8 @@ const Navbar = () => {
                 <div className={styles.navUl}>
                     <a href='#about' className={mode === 'Dark' ? styles.navADark : styles.navALight}>{navText.About[language]}</a>
                     <a href='#projects' className={mode === 'Dark' ? styles.navADark : styles.navALight}>{navText.Projects[language]}</a>    
-                    <div className={mode === 'Dark' ? styles.navFlagsDark : styles.navFlagsLight}>
+                    <a href='#contact' className={mode === 'Dark' ? styles.navADark : styles.navALight}>{navText.Contact[language]}</a>    
+                    <div className={styles.navFlags}>
                         <Flags />
                     </div>
                 </div>

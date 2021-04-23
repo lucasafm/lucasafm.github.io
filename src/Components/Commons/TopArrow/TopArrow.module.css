@@ -18,14 +18,14 @@
     transition: color 0.5s;
 }
 .topArrowArrowDark{
-    color: white;
+    color: #fafcfb;
 }
 .topArrowArrowLight{
-    color:#ff9000
+    color:#050608
 }
 .topArrowArrowDark:hover{
-    color: #ff9000;
+    color: #517B5B;
 }
 .topArrowArrowLight:hover{
-    color: black;
+    color: #517B5B;
 }

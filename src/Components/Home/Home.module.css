@@ -42,12 +42,13 @@
     transition: text-shadow 0.5s;
 }
 
-.homeADark, .homePDark, .lanPDark{
+/* .homeADark, .homePDark, .lanPDark{
     text-shadow: 2px 2px gray;
+
 }
 .homeALight, .homePLight, .lanPLight{
     text-shadow: 3px 3px #ff6600;
-}
+} */
 
 .homeADark, .homeALight{
     font-size: 60px;
@@ -59,10 +60,11 @@
 
 .lanPDark, .lanPLight{
     font-size: 40px;
-    transition: font-size 0.5s;
+    transition: color 0.5s;
 }
 .lanPDark:hover, .lanPLight:hover{
-    font-size: 45px;
+    color: #517B5B;
+    cursor: pointer;
 }
 
 .lanDiv{

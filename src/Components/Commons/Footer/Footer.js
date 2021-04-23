@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <>
             <div className={mode === 'Dark' ? styles.divFooterDark : styles.divFooterLight}>
-                <p className={mode === 'Dark' ? styles.footerPDark : styles.footerPLight}>© 2021 Lucas A Fernandez Morales</p>
+                <p className={styles.footerP}>© 2021 Lucas A Fernandez Morales</p>
             </div>
         </>
     )

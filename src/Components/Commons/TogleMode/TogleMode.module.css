@@ -7,18 +7,19 @@
 .sunDark, .sunLight, .moonDark, .moonLight{
     font-size: 3vh;
     margin-bottom: 0.5vh;
+    transition: color 0.5s;
 }
 .sunDark{
     color: yellow;
 }
 .sunLight{
-    color: black;
+    color: white;
 }
 .moonDark{
     color: #c96dfd;
 }
 .moonLight{
-    color: black;
+    color: white;
 }
 
 .switchCheckbox {
@@ -45,11 +46,11 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ff9000;
+    background-color: white;
     -webkit-transition: 0.4s;
     transition: 0.4s;
 }
-  
+
 .slider:before {
     position: absolute;
     content: "";
@@ -63,11 +64,11 @@
 }
 
 input:checked + .slider {
-    background-color: white;
+    background-color: #517B5B;
 }
   
 input:focus + .slider {
-    box-shadow: 0 0 1px #da7b00;
+    box-shadow: 0 0 1px black;
 }
   
 input:checked + .slider:before {

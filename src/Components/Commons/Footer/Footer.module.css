@@ -6,18 +6,12 @@
     transition: background-color 0.5s;
 }
 .divFooterDark{
-    background-color: black;
+    background-color: #020203;
 }
 .divFooterLight{
-    background-color: #ff9000;
+    background-color: #273C2C;
 }
 
-.footerPDark, .footerPLight{
-    transition: color 0.5s;
-}
-.footerPDark{
-    color: rgba(255, 255, 255, 0.568);
-}
-.footerPLight{
-    color: black;
+.footerP{
+    color: #fafcfb;
 }

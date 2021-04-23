@@ -1,26 +1,26 @@
 .fakeDivDark, .fakeDivLight{
-    height: 4rem;
+    height: 3rem;
     transition: background-color 0.5s;
 }
 .fakeDivDark{
-    background-color: black;
+    background-color: #020203;
 }
 .fakeDivLight{
-    background-color: #ff9000;
+    background-color: #273C2C;
 }
 
 .papaDivDark, .papaDivLight{
     transition: background-color 0.5s;
 }
 .papaDivDark{
-    background-color: black;
+    background-color: #020203;
 }
 .papaDivLight{
-    background-color: white;
+    background-color: #273C2C;
 }
 
 .contentDiv{
-    height: 90vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,6 +40,6 @@
     border-color: white;
 }
 .projectsPLight{
-    color: black;
-    border-color: #ff9000;
+    color: white;
+    border-color: white;
 }

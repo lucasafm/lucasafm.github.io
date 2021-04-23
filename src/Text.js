@@ -13,6 +13,11 @@ export const navText = {
         EN: 'About me',
         ES: 'Sobre mi',
         PT: 'Sobre mim'
+    },
+    Contact: {
+        EN: 'Contact',
+        ES: 'Contacto',
+        PT: 'Contato'
     }
 }
 
@@ -67,5 +72,31 @@ export const projectsText = {
         EN: 'Projects in Process...',
         ES: 'Proyectos en Proceso...',
         PT: 'Projetos em Andamento...'
+    }
+}
+
+export const contactText = {
+    p: {
+        EN: 'Contact',
+        ES: 'Contacto',
+        PT: 'Contato'
+    }
+}
+
+export const flagsText = {
+    altUK: {
+        EN: 'English',
+        ES: 'Ingles',
+        PT: 'Ingles'
+    },
+    altSpain: {
+        EN: 'Spanish',
+        ES: 'Español',
+        PT: 'Espanhol'
+    },
+    altBrazil: {
+        EN: 'Portuguese',
+        ES: 'Portugués',
+        PT: 'Português'
     }
 }
